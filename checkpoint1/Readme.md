@@ -10,10 +10,15 @@
 ---
 ##Table of Content
 
-- [IMAGES](###images)
+- [Collaborator image](#collaborator-image)
+- [My Single Line of Code](#my-single-line-of-code)
+- [My Multiples Lines of Code](#my-multiple-lines-of-code)
+- [Hyperlinks](hyperlinks)
+- [TABLES](#tables)
 
+  
 
-### Images
+### Collaborator image
 <img src="collaborator.png"
      alt="collaborator icon"
      style="float: left; margin-right: 10px;" />
@@ -21,7 +26,7 @@
 ### MY SINGLE LINE OF CODE
 This is my single line of code `Sudo Docker Install`
 
-### MY MULTIPLE LINE OF CODE
+### MY MULTIPLE LINES OF CODE
 ```js
 // Get user input for their name
 var userName = prompt("What is your name?");
@@ -35,3 +40,18 @@ if (userName !== null && userName !== "") {
   console.log("Hello, Guest! Welcome to the world of JavaScript!");
 }
 ````
+
+### HYPERLINKS
+
+- [Learn terraform from scratch](https://www.youtube.com/watch?v=7xngnjfIlK4)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [Learn Docker from scratch](https://www.youtube.com/watch?v=pg19Z8LL06w)
+
+
+### TABLES
+| Employee            | Department         | Role               |
+|---------------------|---------------------|--------------------|
+| Teddy Nwabuisi       | Marketing          | Marketing Manager |
+| Tobe Segun        | Sales              | Sales Representative|
+| Michael Johnson    | HR                 | HR Specialist     |
+|                     | IT                 | IT Administrator  |
