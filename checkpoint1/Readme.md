@@ -13,7 +13,7 @@
 - [Collaborator image](#collaborator-image)
 - [My Single Line of Code](#my-single-line-of-code)
 - [My Multiples Lines of Code](#my-multiple-lines-of-code)
-- [Sample .json Object](SAMPLE-.JSON-OBJECT)
+- [Sample .json Object](#SAMPLE-.JSON-OBJECT)
 - [TABLES](#Tables)
 - [Suggestion Image](#SUGGESTION-IMAGE)
 - [Useful links](#USEFUL-LINKS)
