@@ -87,7 +87,7 @@ echo "This is a my line of code for CAA900 checkpoint1."
 
 - [Class Github Organisation](https://github.com/Azure-Project-Winter2024)
 - [ Class GitHub Repository](https://github.com/Azure-Project-Winter2024/CAA900-CapstoneProject)
-- [Class Github Discussion](https://github.com/Azure-Project-Winter2024/CAA900-CapstoneProject)
+- [Class Github Discussion](https://github.com/orgs/Azure-Project-Winter2024/discussions/19)
 
 
 
