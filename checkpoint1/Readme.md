@@ -1,10 +1,10 @@
 # Checkpoint1 Submission
 
-- **COURSE INFORMATION: xxx**
-- **STUDENT’S NAME: xxx**
-- **STUDENT'S NUMBER: xxx**
-- **GITHUB USER_ID: xxx**
-- **TEACHER’S NAME: xxx**
+- **COURSE INFORMATION: CAA900**
+- **STUDENT’S NAME: ADIMABUA TEDDY NWABUISI**
+- **STUDENT'S NUMBER: 132420233**
+- **GITHUB USER_ID: Teddy124**
+- **TEACHER’S NAME: Atoosa Nasiri**
   
 
 ---
