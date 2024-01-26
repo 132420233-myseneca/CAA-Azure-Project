@@ -13,8 +13,10 @@
 - [Collaborator image](#collaborator-image)
 - [My Single Line of Code](#my-single-line-of-code)
 - [My Multiples Lines of Code](#my-multiple-lines-of-code)
-- [Hyperlinks](HYPERLINKS)
-- [TABLES](#tables)
+- [Useful links](#USEFUL-LINKS)
+- [Sample .json Object](SAMPLE-.JSON-OBJECT)
+- [Suggestion Image](#SUGGESTION-IMAGE)
+- [TABLES](#Tables)
 
   
 
@@ -45,11 +47,36 @@ echo "Result is: $sum"
 echo "This is a my line of code for CAA900 checkpoint1."
 ```
 
-### HYPERLINKS
+
+### SAMPLE .JSON OBJECT 
+
+```json
+{
+  "name": "John Doe",
+  "Program": "CAA",
+  "age": 23,
+  "city": "Toronto",
+  "isEnrolled": true,
+  "courses": ["CAA900", "CLO835", "PMC800"],
+  "Result": {
+    "CAA900": "A+",
+    "CLO85": "A+",
+    "PMC800: "A+"
+  }
+}
+
+
+### USEFUL LINKS
 
 - [Learn terraform from scratch](https://www.youtube.com/watch?v=7xngnjfIlK4)
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Learn Docker from scratch](https://www.youtube.com/watch?v=pg19Z8LL06w)
+
+
+  ### SUGEESTION image
+<img src="Suggestions.png"
+     alt="Suggestions icon"
+     style="float: left; margin-right: 10px;" />
 
 
 ### TABLES
