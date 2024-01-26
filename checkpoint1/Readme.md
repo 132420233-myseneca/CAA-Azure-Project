@@ -3,7 +3,7 @@
 - **COURSE INFORMATION: CAA900**
 - **STUDENT’S NAME: ADIMABUA TEDDY NWABUISI**
 - **STUDENT'S NUMBER: 132420233**
-- **GITHUB USER_ID: Teddy124**
+- **GITHUB USER_ID: 132420233-myseneca**
 - **TEACHER’S NAME: Atoosa Nasiri**
   
 
@@ -13,7 +13,7 @@
 - [Collaborator image](#collaborator-image)
 - [My Single Line of Code](#my-single-line-of-code)
 - [My Multiples Lines of Code](#my-multiple-lines-of-code)
-- [Sample .json Object](#SAMPLE-.JSON-OBJECT)
+- [Sample .json Object](SAMPLE-.JSON-OBJECT)
 - [TABLES](#Tables)
 - [Suggestion Image](#SUGGESTION-IMAGE)
 - [Useful links](#USEFUL-LINKS)
@@ -67,7 +67,7 @@ echo "This is a my line of code for CAA900 checkpoint1."
 }
 ```
 ### TABLES
-| Employee            | Department         | Role               |
+| Employee            | Department         | Position             |
 |---------------------|---------------------|--------------------|
 | Teddy Nwabuisi     | Marketing          | Marketing Strategist |
 | Tobe Segun         | IT            | DevOps Engineer|
@@ -77,7 +77,7 @@ echo "This is a my line of code for CAA900 checkpoint1."
 
 
 
- ### SUGEESTION IMAGE
+ ### SUGGESTION IMAGE
 <img src="Suggestions.png"
      alt="Suggestions icon"
      style="float: left; margin-right: 10px;" />
@@ -85,9 +85,9 @@ echo "This is a my line of code for CAA900 checkpoint1."
 
  ### USEFUL LINKS
 
-- [Learn terraform from scratch](https://www.youtube.com/watch?v=7xngnjfIlK4)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [Learn Docker from scratch](https://www.youtube.com/watch?v=pg19Z8LL06w)
+- [Class Github Organisation](https://github.com/Azure-Project-Winter2024)
+- [ Class GitHub Repository](https://github.com/Azure-Project-Winter2024/CAA900-CapstoneProject)
+- [Class Github Discussion](https://github.com/Azure-Project-Winter2024/CAA900-CapstoneProject)
 
 
 
