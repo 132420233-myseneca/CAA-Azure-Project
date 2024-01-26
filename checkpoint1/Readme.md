@@ -13,7 +13,7 @@
 - [Collaborator image](#collaborator-image)
 - [My Single Line of Code](#my-single-line-of-code)
 - [My Multiples Lines of Code](#my-multiple-lines-of-code)
-- [Hyperlinks](hyperlinks)
+- [Hyperlinks](HYPERLINKS)
 - [TABLES](#tables)
 
   
