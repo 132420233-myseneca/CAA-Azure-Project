@@ -8,7 +8,7 @@
   
 
 ---
-##Table of Content
+## Table of Content
 
 - [Collaborator image](#collaborator-image)
 - [My Single Line of Code](#my-single-line-of-code)
@@ -27,19 +27,23 @@
 This is my single line of code `Sudo Docker Install`
 
 ### MY MULTIPLE LINES OF CODE
-```js
-// Get user input for their name
-var userName = prompt("What is your name?");
+```bash
+#!/bin/bash
 
-// Check if the user entered a name
-if (userName !== null && userName !== "") {
-  // Display a personalized greeting
-  console.log("Hello, " + userName + "! Welcome to the world of JavaScript!");
-} else {
-  // Display a generic greeting if the user did not enter a name
-  console.log("Hello, Guest! Welcome to the world of JavaScript!");
+echo "Hello, world!"
+
+a=12
+b=10
+
+function add (){
+  sum=$(($a + $b))
 }
-````
+add
+
+echo "Result is: $sum"
+
+echo "This is a my line of code for CAA900 checkpoint1."
+```
 
 ### HYPERLINKS
 
@@ -51,7 +55,7 @@ if (userName !== null && userName !== "") {
 ### TABLES
 | Employee            | Department         | Role               |
 |---------------------|---------------------|--------------------|
-| Teddy Nwabuisi       | Marketing          | Marketing Manager |
-| Tobe Segun        | Sales              | Sales Representative|
-| Michael Johnson    | HR                 | HR Specialist     |
-|                     | IT                 | IT Administrator  |
+| Teddy Nwabuisi     | Marketing          | Marketing Strategist |
+| Tobe Segun         | IT            | DevOps Engineer|
+| Michael Johnson    | HR                 | HR Adminstrator    |
+| Nancy Ukachi       | IT                 | Project Manager  |
