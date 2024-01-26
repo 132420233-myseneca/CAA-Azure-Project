@@ -13,10 +13,11 @@
 - [Collaborator image](#collaborator-image)
 - [My Single Line of Code](#my-single-line-of-code)
 - [My Multiples Lines of Code](#my-multiple-lines-of-code)
-- [Useful links](#USEFUL-LINKS)
-- [Sample .json Object](SAMPLE-.JSON-OBJECT)
-- [Suggestion Image](#SUGGESTION-IMAGE)
+- [Sample .json Object](#SAMPLE-.JSON-OBJECT)
 - [TABLES](#Tables)
+- [Suggestion Image](#SUGGESTION-IMAGE)
+- [Useful links](#USEFUL-LINKS)
+
 
   
 
@@ -64,21 +65,7 @@ echo "This is a my line of code for CAA900 checkpoint1."
     "PMC800: "A+"
   }
 }
-
-
-### USEFUL LINKS
-
-- [Learn terraform from scratch](https://www.youtube.com/watch?v=7xngnjfIlK4)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [Learn Docker from scratch](https://www.youtube.com/watch?v=pg19Z8LL06w)
-
-
-  ### SUGEESTION image
-<img src="Suggestions.png"
-     alt="Suggestions icon"
-     style="float: left; margin-right: 10px;" />
-
-
+```
 ### TABLES
 | Employee            | Department         | Role               |
 |---------------------|---------------------|--------------------|
@@ -86,3 +73,21 @@ echo "This is a my line of code for CAA900 checkpoint1."
 | Tobe Segun         | IT            | DevOps Engineer|
 | Michael Johnson    | HR                 | HR Adminstrator    |
 | Nancy Ukachi       | IT                 | Project Manager  |
+
+
+
+
+ ### SUGEESTION IMAGE
+<img src="Suggestions.png"
+     alt="Suggestions icon"
+     style="float: left; margin-right: 10px;" />
+
+
+ ### USEFUL LINKS
+
+- [Learn terraform from scratch](https://www.youtube.com/watch?v=7xngnjfIlK4)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [Learn Docker from scratch](https://www.youtube.com/watch?v=pg19Z8LL06w)
+
+
+
