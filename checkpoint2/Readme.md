@@ -8,7 +8,7 @@
 
 # Table of Contents
  - [Part A - Adding Files - Local Repo Workflow](#PART A -Adding files- Local Repo Workflow)
- - [Part B - Inspecting Local Repo with `git status` and `git log`](Part B Inspecting Local Repo with `git status` and `git log`)
+ - [Part B - Inspecting Local Repo with `git status` and `git log`](#Part B Inspecting Local Repo with `git status` and `git log`)
  - [Part C - Creating & Merging Branches](#header3)
  - [Part D - Git Branching Strategy Review Question](#header4)
 
@@ -31,8 +31,10 @@ Date:   Sun Jan 28 23:11:37 2024 -0500
 
     adds footnotes folder
 ```
+
  #### `git Status`
- This command is used to show the status of changes in a directory we are currently working on with git,it helps to show if the files are tracked
+ - **Purpose:**
+ -This command is used to show the status of changes in a directory we are currently working on with git,it helps to show if the files are tracked
  uncommitted or committed.
  
 
@@ -44,7 +46,7 @@ commit a71c040d8ac2ddb768849626c237eed6aa25f422 (HEAD -> main, feat-emojis/feat-
 Author: “132420233-myseneca” <“nwabuisiteddy@yahoo.com”>
 Date:   Sun Jan 28 23:17:23 2024 -0500
 
-    adds emojis to feat-emojis branch
+ adds emojis to feat-emojis branch
 
 commit 934ea9acbb39538e9d2f646ebff495e5dcf53c96 (origin/main, origin/HEAD)
 Author: “132420233-myseneca” <“nwabuisiteddy@yahoo.com”>
