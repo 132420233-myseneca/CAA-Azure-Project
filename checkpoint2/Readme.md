@@ -1,7 +1,7 @@
 # Checkpoint2 Submission
 
 - **COURSE INFORMATION:** CAA900
-- **STUDENT’S NAME:** AdIMABUA TEDDY NWABUISI
+- **STUDENT’S NAME:** ADIMABUA TEDDY NWABUISI
 - **STUDENT'S NUMBER:** 132420233
 - **GITHUB USER ID:** 132420233-myseneca
 - **TEACHER’S NAME:** ATOOSA NASIRI
@@ -10,7 +10,7 @@
 
 - [Part A - Adding Files - Local Repo Workflow](#adding-files-local-repo-workflow)
 - [Part B - Inspecting Local Repo with `git status` and `git log`](#inspecting-local-repo-with-`git-status`-and-`git-log`)
-- [Part C - Creating & Merging Branches](#creating-&-merging-branches)
+- [Part C - Creating & Merging Branches](#creating-and-merging-branches)
 - [Part D - Git Branching Strategy Review Question](#branching-strategy-review-question)
 
 
@@ -34,25 +34,12 @@ adds footnotes folder`
 #### `git status`
 
 - **Purpose:**
-  - This command is used to show the status of changes in a directory we are currently working on with Git. It helps to show if the files are tracked, uncommitted, or committed.
-- **Example:** This is a exapmple of a committed git repository
-`On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	git_status_committed.txt
-
-nothing added to commit but untracked files present (use "git add" to track)
-`
-
-  
+  - This command is used to show the status of changes in a directory we are currently working on with Git and the staging. It helps to show if the files are tracked, uncommitted, or committed.
 
 
- 
+nothing added to commit but untracked files present (use "git add" to track)   
 
-## Creating & Merging Branches
+## Creating and Merging Branches
 ``` bash
 $ git log -n 5
 
