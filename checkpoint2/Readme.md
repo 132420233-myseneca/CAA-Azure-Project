@@ -1,4 +1,4 @@
-### Checkpoint2 Submission
+# Checkpoint2 Submission
 
 - **COURSE INFORMATION: CAA900
 - **STUDENT’S NAME: AdIMABUA TEDDY NWABUISI
@@ -19,18 +19,12 @@
 
  ### Part B - Inspecting Local Repo with `git status` and `git log`
    #### `git log`
-   - **Purpose:**
-  - This is a command on git used to show to show commit history,it is ran with a command `git log`,it also shows the the author of the
-   commit,the date and as many number of commit you want to it to display
+   - **Purpose:**:This is a command on git used to show to show commit history,it is ran with a command `git log`,it also shows the the author of the commit,the date and as many number of commit you want to it to display
 
 - **Example:**
-  ```bash
-  commit 934ea9acbb39538e9d2f646ebff495e5dcf53c96 (origin/main, origin/HEAD)
-Author: “132420233-myseneca” <“nwabuisiteddy@yahoo.com”>
-Date:   Sun Jan 28 23:11:37 2024 -0500
-
-    adds footnotes folder
-```
+  
+  `commit 934ea9acbb39538e9d2f646ebff495e5dcf53c96 (origin/main, origin/HEAD) Author: “132420233-myseneca” <“nwabuisiteddy@yahoo.com”>
+Date:   Sun Jan 28 23:11:37 2024 -0500 adds footnotes folder`
 
  #### `git Status`
  - **Purpose:**
