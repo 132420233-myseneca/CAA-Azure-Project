@@ -8,14 +8,14 @@
 
 # Table of Contents
  - [Part A - Adding Files - Local Repo Workflow](#PART A -Adding files- Local Repo Workflow)
- - [Part B - Inspecting Local Repo with `git status` and `git log`](#Inspecting Local Repo with `git status` and `git log`)
+ - [Part B - Inspecting Local Repo with `git status` and `git log`](Part B Inspecting Local Repo with `git status` and `git log`)
  - [Part C - Creating & Merging Branches](#header3)
  - [Part D - Git Branching Strategy Review Question](#header4)
 
 ## PART A -Adding files- Local Repo Workflow
- -- [git_status_untracked](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint2/git_status_untracked.txt)
- -- [git_status_uncommited](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint2/git_status_uncommitted.txt)
- -- [git_status_committed](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint2/git_status_committed.txt)
+ - [git_status_untracked](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint2/git_status_untracked.txt)
+ - [git_status_uncommited](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint2/git_status_uncommitted.txt)
+ - [git_status_committed](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint2/git_status_committed.txt)
 
  ### Part B - Inspecting Local Repo with `git status` and `git log`
    #### `git log`
