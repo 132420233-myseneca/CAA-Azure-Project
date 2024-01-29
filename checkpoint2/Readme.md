@@ -8,19 +8,19 @@
   
 # Table of Contents
 
-- [Part A - Adding Files - Local Repo Workflow](#part-a-adding-files-local-repo-workflow)
-- [Part B - Inspecting Local Repo with `git status` and `git log`](#part-b-inspecting-local-repo-with-git-status-and-git-log)
+- [Part A - Adding Files - Local Repo Workflow](#adding-files-local-repo-workflow)
+- [Part B - Inspecting Local Repo with `git status` and `git log`](#inspecting-local-repo-with-`git-status`-and-`git-log`)
 - [Part C - Creating & Merging Branches](#creating-&-merging-branches)
 - [Part D - Git Branching Strategy Review Question](#branching-strategy-review-question)
 
 
 
-## part a adding files local repo workflow
+## Adding files local repo workflow
  - [git-status-untracked](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint2/git_status_untracked.txt)
  - [git-status-uncommited](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint2/git_status_uncommitted.txt)
  - [git-status-committed](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint2/git_status_committed.txt)
 
- ## Part B - Inspecting Local Repo with `git status` and `git log`
+ ##  Inspecting Local Repo with `git status` and `git log`
    #### `git log`
    - **Purpose:** This is a command on git used to show to show commit history,it is ran with a command `git log`,it also shows the the author of the
      commit,the date and as many number of commit you want to it to display
@@ -35,6 +35,18 @@ adds footnotes folder`
 
 - **Purpose:**
   - This command is used to show the status of changes in a directory we are currently working on with Git. It helps to show if the files are tracked, uncommitted, or committed.
+- **Example:** This is a exapmple of a committed git repository
+`On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git_status_committed.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+`
+
   
 
 
