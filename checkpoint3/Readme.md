@@ -148,7 +148,7 @@ Changes to be committed:
 ### Screenshot of merge to the main branch
 <img src="mergestatus.png"
      alt="merge-status"
-     style="float: left; margin-right: 12px;" />
+     style="float: left; margin-right: 10px;" />
 
 ## Collaboration Creating Pull Request
 
