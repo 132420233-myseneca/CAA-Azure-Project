@@ -109,6 +109,43 @@ Fast-forward
 
 
 
+## Part C - Manage Conflicts - Merge Editor
+
+#### part3-pull-conflict.log
+
+- [part2-pull-success.log](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint3/logs/part3-pull-conflict.log)
+
+```Markdown
+POST git-upload-pack (375 bytes)
+POST git-upload-pack (968 bytes)
+From https://github.com/132420233-myseneca/CAA-Azure-Project
+ * branch            feat-body-text -> FETCH_HEAD
+   94b7552..faebfd2  feat-body-text -> origin/feat-body-text
+Auto-merging checkpoint3/conflict-resolution/index.html
+CONFLICT (content): Merge conflict in checkpoint3/conflict-resolution/index.html
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+#### part3-status.log
+
+- [part2-status.log](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint3/logs/part3-status.log)
+
+```Markdown
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+	modified:   checkpoint3/conflict-resolution/index.html
+
+
+```
+
+
+
 
 
 
