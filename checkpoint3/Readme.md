@@ -9,9 +9,9 @@
 # Table of Contents
 
 - [Part A Manage Conflicts - Overwrite Remote Changes](#manage-conflicts-overwrite-remote-changes)
-- [Part B - Manage Conflicts - Reset Local Commit Head](#manage-conflicts-:-reset-local-commit-head)
-- [Part C - Creating & Merging Branches](#creating-and-merging-branches)
-- [Part D - Git Branching Strategy Review Question](#branching-strategy-review-question)
+- [Part B - Manage Conflicts - Reset Local Commit Head](#manage-conflicts-reset-local-commit-head)
+- [Part C - Manage Conflicts - Merge Editor](#part-c-manage-conflicts-merge-editor)
+- [Part D - Collaboration - Creating Pull Request](#collaboration-creating-pull-request)
 
 
 ### Manage Conflicts Overwrite Remote Changes
@@ -43,9 +43,10 @@ To https://github.com/132420233-myseneca/CAA-Azure-Project.git
 updating local tracking ref 'refs/remotes/origin/main'
 ```
 
+The text color after forcefully overwriting the remote with local changes was `green`
 
 
- ## Manage Conflicts:Reset Local Commit Head
+ ## Manage Conflicts Reset Local Commit Head
 
 #### part2-conflict-error.log
 
@@ -107,13 +108,14 @@ Fast-forward
  1 file changed, 1 insertion(+), 1 deletion(-)
  ```
 
+The text color after we forcefully overwrote the remote with local changes was still `green` 
 
 
-## Part C - Manage Conflicts - Merge Editor
+## Part C Manage Conflicts Merge Editor
 
 #### part3-pull-conflict.log
 
-- [part2-pull-success.log](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint3/logs/part3-pull-conflict.log)
+- [part3-pull-conflict.log](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint3/logs/part3-pull-conflict.log)
 
 ```Markdown
 POST git-upload-pack (375 bytes)
@@ -128,7 +130,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 #### part3-status.log
 
-- [part2-status.log](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint3/logs/part3-status.log)
+- [part3-status.log](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint3/logs/part3-status.log)
 
 ```Markdown
 On branch main
@@ -143,6 +145,18 @@ Changes to be committed:
 
 
 ```
+### Screenshot of merge to the main branch
+<img src="mergestatus.png"
+     alt="merge-status"
+     style="float: left; margin-right: 12px;" />
+
+## Collaboration Creating Pull Request
+
+### Screenshot of the pull request history
+
+<img src="pull-request.png"
+     alt="pull-request"
+     style="float: left; margin-right: 10px;" />
 
 
 
