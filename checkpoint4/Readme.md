@@ -67,11 +67,11 @@ az network vnet subnet create --name SN1 \
 ```
 
 ## Working with Azure CLI Bash
--  [List-of-vnets]()
+1)  [List-of-vnets]()
 
-- [default-student-vnet]()
+2) [default-student-vnet]()
 
-- ### Peering table
+3) ### Peering table
 | AllowForwardedTraffic | AllowGatewayTransit | AllowVirtualNetworkAccess | DoNotVerifyRemoteGateways | Name                  | PeeringState | PeeringSyncLevel | ProvisioningState | ResourceGroup      | ResourceGuid                          | UseRemoteGateways |
 |-----------------------|---------------------|---------------------------|---------------------------|-----------------------|--------------|------------------|-------------------|--------------------|---------------------------------------|-------------------|
 | True                  | False               | True                      | False                     | RoutertoStudent       | Connected    | FullyInSync      | Succeeded         | Student-RG-1202214 | c759eefc-bac2-0b49-0345-ff853eb5984d | False             |
@@ -83,5 +83,12 @@ az network vnet subnet create --name SN1 \
 |-----------------------|---------------------|---------------------------|---------------------------|-------------------------|--------------|------------------|-------------------|--------------------|---------------------------------------|-------------------|
 | True                  | False               | True                      | False                     | Student-Bastion1202214 | Connected    | FullyInSync      | Succeeded         | Student-RG-1202214 | 80623fb1-0ec4-084c-2266-25c3521d0b84 | False             |
 | True                  | False               | True                      | False                     | StudenttoRouter        | Connected    | FullyInSync      | Succeeded         | Student-RG-1202214 | c759eefc-bac2-0b49-0345-ff853eb5984d | False             |
+
+4) ## List of all routes in RT-90
+  
+  | AddressPrefix  | HasBgpOverride | Name           | NextHopIpAddress | NextHopType      | ProvisioningState | ResourceGroup      |
+|----------------|----------------|------------------|------------------|------------------|-------------------|--------------------|
+| 172.17.90.32/27| False          | Route-to-Server  | 192.168.90.36    | VirtualAppliance | Succeeded         | Student-RG-1202214|
+| 10.14.17.0/24  | False          | Route-to-Desktop | 192.168.90.36    | VirtualAppliance | Succeeded         | Student-RG-1202214|
 
 
