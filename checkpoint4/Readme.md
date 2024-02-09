@@ -280,7 +280,7 @@ This simply means the scripts requires a parameter called target_version to be p
 ## Clean Up your Environment using Azure CLI
 
 ### 1) 
- I used the command `./delete_all_vm.sh to delete all virtual machines created
+ I used the command `./delete_all_vm.sh` to delete all virtual machines created
 
 
  ### 2) What is the difference between VM and Custom Image that makes VM a very costly resource and Custom Images
