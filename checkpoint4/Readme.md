@@ -181,6 +181,7 @@ I used the `az vm show --resource-group Student-RG-1202214 --name WC-90 --output
 
 For flexibility and ease of maintenance, auto-shutdown configuration is frequently completed in a separate script. The auto-shutdown configuration can be made concurrently with virtual machine creation.But then the auto-shutdown script is focused on establishing rules, while the VM formation script is focused on supplying resources, which is why it is separated. Better codebase structure, readability, and scalability are made possible by this division.
 
+
 ## Creating Custom Images
 
 1)
@@ -277,6 +278,40 @@ This simply means the scripts requires a parameter called target_version to be p
 
 
 ## Clean Up your Environment using Azure CLI
+
+### 1) 
+ I used the command `./delete_all_vm.sh to delete all virtual machines created
+
+
+ ### 2) What is the difference between VM and Custom Image that makes VM a very costly resource and Custom Images
+
+ OS disks actively use computer power and storage space when they are in use. As long as the virtual machine (VM) is in operation, these resources are always used, which results in ongoing expenses. while Custom Images are simply VM snapshots, complete with their OS disks. Because they are static pictures saved in storage, , rather than actively operating virtual machines, they have very low continuing expenses.
+
+ ### 3) 
+
+  The costs associated with network security groups (NSGs) and network interface cards (NICs) are comparatively minimal. They still add to your total Azure bill, though. Eliminating them simplifies network settings and reduces wasteful spending.
+
+  ### 4) 
+
+   When compared to other resources, network backends such as VNETs (Virtual Networks) and Route Tables have very low continuing expenses. They offer basic networking functions, and removing them might cause all network resources to lose connection. Before thinking about deletion, the impact of the network infastructure must be properly evaluated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
