@@ -8,15 +8,15 @@
   
 # Table of Contents
 
-1. [Part A - Creating Network Resources using Azure CLI](#header1)
-2. [Part B -  Working with Azure CLI Bash](#header2)
-3. [Part C - Network Review Questions](#header3)
-4. [Part D - Creating Virtual Machines](#header4)
-5. [Part E - Creating Custom Images](#Header5)
-6. [Part F - Clean Up your Environment](#Header6)
+1. [Part A - Creating Network Resources using Azure CLI](creating- network-resources-using-azure-cli)
+2. [Part B -  Working with Azure CLI Bash](working-with-azure-cli-bash)
+3. [Part C - Network Review Questions](network-review-questions)
+4. [Part D - Creating Virtual Machines](creating-virtual-machines)
+5. [Part E - Creating Custom Images](creating-custom-images)
+6. [Part F - Clean Up your Environment]()
 
 
-## Creating Network Resources Using  Azure CLI
+## Creating Network Resources Using Azure CLI
 
 ### Updated lines in the networkconfig.sh
 ``` bash 
@@ -168,7 +168,7 @@ I used the `az vm show --resource-group Student-RG-1202214 --name WC-90 --output
 
 ### 4)  Screenshot of the auto shutdown configuration for LS_90
 
-<img src="pull-request.png"
+<img src="auto-config.png"
      alt="LS-90-vm"
      style="float: left; margin-right: 10px;" />
 
@@ -198,6 +198,89 @@ az vm create --name $vm_name -g $RG_NAME  \
 ```
 
 Although the two scripts are quite similar, the custom_vm_create.sh script differs in one important way. The `$image_name` variable in the custom_vm_create.sh script is created using the `$target_version` variable, which is passed to the script as an input. This suggests that the script is building virtual machines  from version-specific custom images and that selecting different versions of the custom image is flexible.Hence we can have differnt versions of a virtual machine when creating from this custom image script
+
+### 2.) The usage selection when not adding version number trying to run the `custom_vm_create.sh` script
+
+`target_version parameter not provided
+Usage: ./image_create.sh <target_version>`
+
+This simply means the scripts requires a parameter called target_version to be provided. so the right would be `./custom_ vm_create.sh 1.0`
+
+### 3.) The command to run 
+
+
+
+### 4.) lists all the Custom Images
+ 
+ [custom-images]()
+
+
+| HyperVGeneration | Location       | Name           | ProvisioningState | ResourceGroup      |
+|------------------|----------------|----------------|-------------------|--------------------|
+| V2               | canadacentral | lr-90-ver-1.0  | Succeeded         | Student-RG-1202214|
+| V2               | canadacentral | ls-90-ver-1.0  | Succeeded         | Student-RG-1202214|
+| V2               | canadacentral | wc-90-ver-1.0  | Succeeded         | Student-RG-1202214|
+| V1               | canadacentral | ws-90-ver-1.0  | Succeeded         | Student-RG-1202214|
+
+
+### 5.)
+
+
+
+
+
+
+### 6.) List of custom image,Nic,Nsg in tabular form
+
+- **Custom image**
+
+| HyperVGeneration | Location       | Name           | ProvisioningState | ResourceGroup      |
+|------------------|----------------|----------------|-------------------|--------------------|
+| V2               | canadacentral | lr-90-ver-1.0  | Succeeded         | Student-RG-1202214|
+| V2               | canadacentral | ls-90-ver-1.0  | Succeeded         | Student-RG-1202214|
+| V2               | canadacentral | wc-90-ver-1.0  | Succeeded         | Student-RG-1202214|
+| V1               | canadacentral | ws-90-ver-1.0  | Succeeded         | Student-RG-1202214|
+
+
+
+
+
+- **VM**
+
+| Name  | ResourceGroup      | Location       | Zones |
+|-------|-------------------|---------------|-------|
+| LR-90 | STUDENT-RG-1202214| canadacentral |       |
+| LS-90 | STUDENT-RG-1202214| canadacentral |       |
+| WC-90 | STUDENT-RG-1202214| canadacentral |       |
+| WS-90 | STUDENT-RG-1202214| canadacentral |       |
+
+
+-**Nic**
+
+
+| AuxiliaryMode | AuxiliarySku | DisableTcpStateTracking | EnableAcceleratedNetworking | EnableIPForwarding | Location       | Name  | NicType  | ProvisioningState | ResourceGroup      | ResourceGuid                        | VnetEncryptionSupported | MacAddress    | Primary |
+|---------------|--------------|-------------------------|-----------------------------|--------------------|----------------|-------|----------|-------------------|--------------------|-------------------------------------|------------------------|---------------|---------|
+| None          | None         | False                   | False                       | False              | canadacentral | lr-90 | Standard | Succeeded         | Student-RG-1202214 | de70a398-23ad-4dc0-b82d-c6d79c3d00f3 | False                  |               |         |
+| None          | None         | False                   | False                       | False              | canadacentral | ls-90 | Standard | Succeeded         | Student-RG-1202214 | b3420624-06e9-49b4-8afb-5509158913c8 | False                  |               |         |
+| None          | None         | False                   | False                       | False              | canadacentral | wc-90 | Standard | Succeeded         | Student-RG-1202214 | 19d266f7-456e-4dbc-bc07-01ad3d99e11a | False                  |               |         |
+| None          | None         | False                   | False                       | False              | canadacentral | ws-90 | Standard | Succeeded         | Student-RG-1202214 | 5542c1cb-6569-4672-971d-0d8972017cd7 | False                  | 00-0D-3A-F3-12-09 | True    |
+
+
+- **Nsg**
+
+| Location       | Name      | ProvisioningState | ResourceGroup      | ResourceGuid                        |
+|----------------|-----------|-------------------|--------------------|-------------------------------------|
+| canadacentral | LR-NSG-90 | Succeeded         | Student-RG-1202214| 3a3a7634-e80c-46a7-ae77-7c135b5929b9|
+| canadacentral | LS-NSG-90 | Succeeded         | Student-RG-1202214| c842ea4f-cbfb-40cc-b88d-a2f2ad6870e5|
+| canadacentral | WC-NSG-90 | Succeeded         | Student-RG-1202214| 48e49acb-9146-4a58-940a-0c1920f63408|
+| canadacentral | WS-NSG-90 | Succeeded         | Student-RG-1202214| 948ac0e5-b20c-4c53-ba6f-6798c0573203|
+
+
+## Clean Up your Environment using Azure CLI
+
+
+
+
 
 
 

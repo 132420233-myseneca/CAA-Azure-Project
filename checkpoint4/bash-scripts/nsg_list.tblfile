@@ -1,0 +1,6 @@
+Location       Name       ProvisioningState    ResourceGroup       ResourceGuid
+-------------  ---------  -------------------  ------------------  ------------------------------------
+canadacentral  LR-NSG-90  Succeeded            Student-RG-1202214  3a3a7634-e80c-46a7-ae77-7c135b5929b9
+canadacentral  LS-NSG-90  Succeeded            Student-RG-1202214  c842ea4f-cbfb-40cc-b88d-a2f2ad6870e5
+canadacentral  WC-NSG-90  Succeeded            Student-RG-1202214  48e49acb-9146-4a58-940a-0c1920f63408
+canadacentral  WS-NSG-90  Succeeded            Student-RG-1202214  948ac0e5-b20c-4c53-ba6f-6798c0573203

@@ -1,0 +1,5 @@
+Name                  ResourceGroup       Location       NumSubnets    Prefixes         DnsServers    DDOSProtection    VMProtection
+--------------------  ------------------  -------------  ------------  ---------------  ------------  ----------------  --------------
+Router-90             Student-RG-1202214  canadacentral  4             192.168.90.0/24                False
+Server-90             Student-RG-1202214  canadacentral  4             172.17.90.0/24                 False
+Student-1202214-vnet  Student-RG-1202214  canadacentral  1             10.14.17.0/24                  False
