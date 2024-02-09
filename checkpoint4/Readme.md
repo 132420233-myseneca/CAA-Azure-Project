@@ -287,11 +287,11 @@ This simply means the scripts requires a parameter called target_version to be p
 
  OS disks actively use computer power and storage space when they are in use. As long as the virtual machine (VM) is in operation, these resources are always used, which results in ongoing expenses. while Custom Images are simply VM snapshots, complete with their OS disks. Because they are static pictures saved in storage, , rather than actively operating virtual machines, they have very low continuing expenses.
 
- ### 3) 
+ ### 3) What are cost implications of NSG or NIC? Why are you deleting them?
 
   The costs associated with network security groups (NSGs) and network interface cards (NICs) are comparatively minimal. They still add to your total Azure bill, though. Eliminating them simplifies network settings and reduces wasteful spending.
 
-  ### 4) 
+  ### 4) Why you are not deleting Network backend like VNET and Route-Tables
 
    When compared to other resources, network backends such as VNETs (Virtual Networks) and Route Tables have very low continuing expenses. They offer basic networking functions, and removing them might cause all network resources to lose connection. Before thinking about deletion, the impact of the network infastructure must be properly evaluated.
 
