@@ -66,9 +66,9 @@ az network vnet subnet create --name SN1 \
 ```
 
 ## Working with Azure CLI Bash
-1)  [List-of-vnets]()
+1)  [List-of-vnets](#https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint4/bash-scripts/vnet_list.json)
 
-2) [default-student-vnet]()
+2) [default-student-vnet](#https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint4/bash-scripts/student_vnet.json)
 
  ### 3) Peering table
 | AllowForwardedTraffic | AllowGatewayTransit | AllowVirtualNetworkAccess | DoNotVerifyRemoteGateways | Name                  | PeeringState | PeeringSyncLevel | ProvisioningState | ResourceGroup      | ResourceGuid                          | UseRemoteGateways |
@@ -153,11 +153,11 @@ When you need to create safe and dependable connections between Azure virtual ne
 | WC-90 | STUDENT-RG-1202214| canadacentral  |       |
 | WS-90 | STUDENT-RG-1202214| canadacentral  |       |
 
-### 2) [details-of-WC90-vm]()
+### 2) [details-of-WC90-vm](#https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint4/bash-scripts/WC-90-details.json)
      
 I used the `az vm show --resource-group Student-RG-1202214 --name WC-90 --output json > WC-90-details.json` command to generate the output of the json 
 
-### 3) [details-of-nsg-created]()
+### 3) [details-of-nsg-created](#https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint4/bash-scripts/nsg_list.tblfile)
   
   | Location       | Name       | ProvisioningState | ResourceGroup      | ResourceGuid                            |
 | -------------- | ---------- | ----------------- | ------------------| --------------------------------------- |
@@ -212,7 +212,7 @@ This simply means the scripts requires a parameter called target_version to be p
 
 ### 4.) lists all the Custom Images
  
- [custom-images]()
+ [custom-images](#https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint4/bash-scripts/custom_images.tbfiles)
 
 
 | HyperVGeneration | Location       | Name           | ProvisioningState | ResourceGroup      |
