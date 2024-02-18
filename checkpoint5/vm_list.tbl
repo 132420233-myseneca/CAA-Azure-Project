@@ -1,0 +1,6 @@
+Name    ResourceGroup       Location       Zones
+------  ------------------  -------------  -------
+LR-90   Student-RG-1202214  canadacentral  1
+LS-90   Student-RG-1202214  canadacentral  1
+WC-90   Student-RG-1202214  canadacentral  1
+WS-90   Student-RG-1202214  canadacentral  1

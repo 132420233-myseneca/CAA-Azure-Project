@@ -1,0 +1,6 @@
+Name                                             ResourceGroup       Location       Zones    Sku           OsType    SizeGb    ProvisioningState
+-----------------------------------------------  ------------------  -------------  -------  ------------  --------  --------  -------------------
+LR-90_OsDisk_1_a4cfb72438df450da929196cd3d5b99c  Student-RG-1202214  canadacentral  1        Standard_LRS  Linux     64        Succeeded
+LS-90_OsDisk_1_c31bb1bfc24c4577a195d7c608f2cf25  Student-RG-1202214  canadacentral  1        Standard_LRS  Linux     64        Succeeded
+WC-90_disk1_bfbe70e4d90e45809a99884ff24ca8bf     Student-RG-1202214  canadacentral  1        Standard_LRS  Windows   127       Succeeded
+WS-90_disk1_a6b1128bc06f47f48be4b0912a7bce6f     Student-RG-1202214  canadacentral  1        Standard_LRS  Windows   127       Succeeded
