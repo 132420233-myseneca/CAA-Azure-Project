@@ -93,7 +93,7 @@ sudo systemctl disable firewalld
 
  4) To show all iptables chains with their order number on the LR-90 system you can use the following command:  `sudo iptables -L --line-numbers`
 
- [Iptable-chain](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint5/vm_list.tbl)
+ [Iptable-chain](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint5/iptables-chain.tbl)
 
  | Chain  | num | target | prot | opt | source    | destination | notes                      |
 |--------|-----|--------|------|-----|-----------|-------------|----------------------------|
@@ -114,16 +114,40 @@ sudo systemctl disable firewalld
 
 ###  Creating & Configuring VM Images - Using Portal
 
+1) [images-list]((https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint5/images.tbl))
+
+| HyperVGeneration | Location       | Name             | ProvisioningState | ResourceGroup     |
+|------------------|----------------|------------------|-------------------|-------------------|
+| V1               | canadacentral | LR-90-ver-0.0.1 | Succeeded         | STUDENT-RG-1202214 |
+| V2               | canadacentral | lr-90-ver-1.0    | Succeeded         | STUDENT-RG-1202214 |
+| V1               | canadacentral | LS-90-ver-0.0.1 | Succeeded         | STUDENT-RG-1202214 |
+| V2               | canadacentral | ls-90-ver-1.0    | Succeeded         | STUDENT-RG-1202214 |
+| V1               | canadacentral | WC-90-ver-0.0.1 | Succeeded         | STUDENT-RG-1202214 |
+| V2               | canadacentral | wc-90-ver-1.0    | Succeeded         | STUDENT-RG-1202214 |
+| V1               | canadacentral | WS-90-ver-0.0.1 | Succeeded         | STUDENT-RG-1202214 |
+| V1               | canadacentral | ws-90-ver-1.0    | Succeeded         | STUDENT-RG-1202214 |
+
+2) The Output of the table was empty after running the command `az vm list --output table > vmm.tbl` because we already deleted the virtual machines in the resource group
+
+3) The process of creating the Virtual Machines from the custom image took almost thesame period of time as creating using the normal images from azure. [images-list]((https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint5/vmm.tbl))
+
+
+
+To enhance the efficiency of the VM creation we can make use of automation tools like terraform this would help to ensure consistency and reduce manual efforts.We could also develop templates to streamline deployment and minimize human efforts
+
+
+
+
+
+
 
 ### Azure Cost Analysis Charts
-
-# Azure Cost Analysis Charts
 
 
 
 | No. | Scope | Chart Type | VIEW Type |  Date Range | Group By | Granularity| Example |
 |-|-|-|-|-|-|-|-|
-|1|Student-RG-1202214 | Column (Stacked) | DailyCosts | Last 7 Days | Resource | Daily | <img src=".CAA-Azure-Project\checkpoint5\images\daily-cost-barchart.jpg" alt="Daily Cost Barchart" style="float: left; margin-right: 10px;" /> |
+|1|Student-RG-1202214 | Column (Stacked) | DailyCosts | Last 7 Days | Resource | Daily | <img src=".\images\daily-cost-barchart.jpg" alt="Daily Cost Barchart" style="float: left; margin-right: 10px;" /> |
 |2|Student-RG-1202214 | Column (Stacked) | DailyCosts | Last 7 Days | Service | Daily | <img src="./images/daily-cost-service-barchart.jpg" alt="Daily Cost Service-Barchart.jpg" style="float: left; margin-right: 10px;" /> |
 |3|Student-RG-1202214 | Area| AccumulatedCosts | Last 7 Days | Resource | Accumulated | <img src="./images/accumulated-resource-barchart.jpg" alt="Accumulated Resource Barchart" style="float: left; margin-right: 10px;" /> |
 |4|Student-RG-1202214 | Pie Chart | NA | Last Month | Service Name | NA | <img src="./images/service-name-piechart.jpg" alt="Service Name Piechart" style="float: left; margin-right: 10px;" /> |
