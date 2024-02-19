@@ -75,6 +75,14 @@ For Linux machines:
 
 ### Enable IP_Forwarding - Using Portal
 
+1) To Check the status of ip-forwarding using the command
+`az network nic ip-config show --nic-name lr-90852_z1 --resource-group Student-RG-1202214 --name ipconfig1 --query "[?name=='ipconfig1'].enableIpForwarding" --output json`
+
+
+
+2) The line on the json file which shows the property of the  status of the ip-forwarding is : `"enableIPForwarding": true`
+ [Ipforwarding](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint5/ipfowarding.json)
+
 
 
 ### Basic Connectivity - VM Configuration
@@ -106,6 +114,9 @@ sudo systemctl disable firewalld
 | FORWARD| 2   | REJECT | all  | --  | anywhere  | anywhere    | reject-with icmp-host-prohibited |
 | FORWARD| 3   | DROP   | tcp  | --  | anywhere  | anywhere    | tcp dpt:ssh                |
 | OUTPUT |     | ACCEPT | all  | --  | anywhere  | anywhere    |                            |
+
+5) We run the command `hostname` to get the hostnames of our virtual machines
+
 
 
 

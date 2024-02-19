@@ -1,0 +1,18 @@
+{
+    "etag": "W/\"3d80b187-4b6c-4b88-b2e3-08d6bf6e540a\"",
+    "id": "/subscriptions/e22a2bd0-d760-4866-9918-1c98f501eb6a/resourceGroups/Student-RG-1202214/providers/Microsoft.Network/networkInterfaces/lr-90852_z1/ipConfigurations/ipconfig1",
+    "name": "ipconfig1",
+    "primary": true,
+    "privateIPAddress": "192.168.90.36",
+    "privateIPAddressVersion": "IPv4",
+    "privateIPAllocationMethod": "Dynamic",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "Student-RG-1202214",
+    "subnet": {
+      "id": "/subscriptions/e22a2bd0-d760-4866-9918-1c98f501eb6a/resourceGroups/Student-RG-1202214/providers/Microsoft.Network/virtualNetworks/Router-90/subnets/SN1",
+      "resourceGroup": "Student-RG-1202214"
+    },
+    "type": "Microsoft.Network/networkInterfaces/ipConfigurations",
+    "enableIPForwarding": true
+  }
+  
