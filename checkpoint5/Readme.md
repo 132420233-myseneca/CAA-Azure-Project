@@ -169,5 +169,7 @@ To enhance the efficiency of the VM creation we can make use of automation tools
 
 
 
+<img src="./images/dashboard.png" alt="Dashboard Sample" style="float: left; margin-right: 10px;" />
+
 
 
