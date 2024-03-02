@@ -96,7 +96,7 @@ sudo systemctl disable firewalld
 
  2) To check the status of an iptable service on a Linux system, you can use the following command `sudo systemctl status iptables`
 
- 3)  
+ 3) For the iptables to start automatically;we have to run the command `sudo systemctl enable iptables`.  
 
 
  4) To show all iptables chains with their order number on the LR-90 system you can use the following command:  `sudo iptables -L --line-numbers`
@@ -115,7 +115,13 @@ sudo systemctl disable firewalld
 | FORWARD| 3   | DROP   | tcp  | --  | anywhere  | anywhere    | tcp dpt:ssh                |
 | OUTPUT |     | ACCEPT | all  | --  | anywhere  | anywhere    |                            |
 
-5) We run the command `hostname` to get the hostnames of our virtual machines
+5) We run the command `hostname` to get the hostnames of our virtual machines.Below is the link to the output files showing the output of the two virtual machines
+- [Hostname-LR](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint5/hostname-LR.txt)
+
+- [Hostname-LS](https://github.com/132420233-myseneca/CAA-Azure-Project/blob/main/checkpoint5/hostname-LS.txt)
+
+
+
 
 
 
