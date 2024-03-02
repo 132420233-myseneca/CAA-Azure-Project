@@ -45,8 +45,6 @@
 
 ### Azure Cost Analysis Charts
 
-
-
 | No. | Scope | Chart Type | VIEW Type |  Date Range | Group By | Granularity| Example |
 |-|-|-|-|-|-|-|-|
 |1|Student-RG-1202214 | Column (Stacked) | DailyCosts | Last 7 Days | Resource | Daily | <img src=".\images\daily-cost-barchart.jpg" alt="Daily Cost Barchart" style="float: left; margin-right: 10px;" /> |
